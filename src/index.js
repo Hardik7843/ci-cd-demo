@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('This is new commit to test github workflow')
+  res.send('To Test Pipelines')
 })
 
 app.listen(port, () => {
