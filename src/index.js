@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.status(200).json({ message : 'Re-Triggering the Run on ubuntu with change v2'})
+  res.status(200).json({ message : 'Instance woke up'})
 })
 
 
